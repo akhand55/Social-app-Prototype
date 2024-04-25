@@ -1,0 +1,56 @@
+
+
+
+*{
+    background-color: #AEC3AE;
+    color: #111;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    margin-top: 10px;
+  
+}
+
+button{
+    cursor: pointer;
+    padding: 5px 14px;
+}
+button:hover{
+    /* border: 1px solid red; */
+   background-color: gray;
+   /* filter: blur(black 5px 5px ); */
+   box-shadow: #111 3px 3px 3px;
+}
+.container{
+    display: flex;
+    gap: 30px;
+}
+
+#post1{
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid #111; */
+}
+
+#post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+#eror{
+    color: red;
+}
+
+.fa-solid{
+    cursor: pointer;
+}
